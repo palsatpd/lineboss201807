@@ -29,10 +29,10 @@ var bot = linebot({
 // });
 
 var con = mysql.createConnection({
-    host: 'http://180.176.88.2/phpMyAdmin/index.php',
-    user: 'lineboss',
-    password: 'lineboss',
-    database: 'lineboss',
+    host: 'http://185.27.134.10/db_structure.php?db=0fe_22905009_lineboss201810',
+    user: '0fe_22905009',
+    password: '1qaz2wsx',
+    database: '0fe_22905009_lineboss201810',
     port: '3306',
 	useConnectionPooling: true
 });
